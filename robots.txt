@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://knowledgeable-lm.github.io/sitemap.xml
+Sitemap: https://foundation-models-meet-embodied-agents.github.io./sitemap.xml
