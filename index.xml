@@ -18,9 +18,9 @@
 @ AAAI 2025 Tutorial
 {style=&#34;color: white; font-size: 3rem; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;&#34;}
 </title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/intro/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/intro/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/intro/</guid>
       <description>&lt;p&gt;08:30 - 12:30, Feb 25, 2025&lt;/p&gt;
 &lt;p&gt;118 A, Pennsylvania Convention Center, Philadelphia, Pennsylvania&lt;/p&gt;
 &lt;br&gt;
@@ -30,9 +30,9 @@
     
     <item>
       <title>Foundation Models Meet Embodied Agents</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/about/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/about/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/about/</guid>
       <description>&lt;p&gt;An embodied agent is a generalist agent that can take natural language instructions from humans and perform a wide range of tasks in diverse environments. Recent years have witnessed the emergence of Large Language Models as powerful tools for building Large Agent Models, which have shown remarkable success in supporting embodied agents for different abilities such as goal interpretation, subgoal decomposition, action sequencing, and transition modeling (causal transitions from preconditions to post-effects).&lt;/p&gt;
 &lt;p&gt;However, moving from Foundation Models to Embodied Agents poses significant challenges in understanding lower-level visual details, and long-horizon reasoning for reliable embodied decision-making.  We will cover the advances of the foundation models into Large Language Models Vision-Language Models, and Vision-Language-Action Models. In this tutorial, we will comprehensively review existing paradigms for foundations for embodied agents, and focus on their different formulations based on the fundamental mathematical framework of robot learning, Markov Decision Process (MDP), and present a structured view to investigate the robot&amp;rsquo;s decision-making process.&lt;/p&gt;
 </description>
@@ -56,9 +56,9 @@
     
     <item>
       <title>Schedule</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/schedule/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/schedule/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/schedule/</guid>
       <description>
 
 
@@ -296,17 +296,17 @@
     
     <item>
       <title>Presenters</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/organization/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/organization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/organization/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/organization/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/contact/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/contact/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/contact/</guid>
       <description></description>
     </item>
     
@@ -340,9 +340,9 @@
     
     <item>
       <title></title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25/___index/</link>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/___index/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25/___index/</guid>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/___index/</guid>
       <description></description>
     </item>
     
