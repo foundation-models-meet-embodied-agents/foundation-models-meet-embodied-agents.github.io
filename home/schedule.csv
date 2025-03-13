@@ -1,5 +1,5 @@
 Session,Duration,Time,Presenter,Link
-Motivation and Overview,15min,08:30-08:45,,"[Slides](./uploads/FM-EA-overview.pdf)"
+Motivation and Overview,15min,08:30-08:45,"[Manling Li](https://limanling.github.io)","[Slides](./uploads/FM-EA-overview.pdf)"
 Foundation Models meet Virtual Agents,45min,08:45-09:30,"[Manling Li](https://limanling.github.io)","[Slides](./uploads/FM-EA-virtual-agent.pdf)"
 "Foundation Models meet Physical Agents: Overview & High-level Decision Making",25min,09:30-09:55,"[Jiayuan Mao](https://jiayuanm.com)","[Slides](./uploads/FM-EA-physical-agent-perception.pdf)"
 "Foundation Models meet Physical Agents: Low-level Decision Making",50min,09:55-10:45,"[Wenlong Huang](https://wenlong.page)","[Slides](./uploads/FM-EA-physical-agent.pdf)"
