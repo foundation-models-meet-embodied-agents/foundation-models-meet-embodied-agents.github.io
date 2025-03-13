@@ -4,31 +4,37 @@
   
   
   <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/intro/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/intro/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/widgets/intro/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/widgets/intro/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./authors/manling-li/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/widgets/about/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/widgets/about/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./authors/yunzhuli/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/about/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/about/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./authors/jiayuanmao/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/widgets/schedule/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/widgets/schedule/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/widgets/presenter/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/widgets/presenter/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./authors/wenlonghuang/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./home_backup/workshops/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/widgets/contact/</loc><changefreq>weekly</changefreq></url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/widgets/contact/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./home_backup/speakers/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/schedule/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/schedule/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -36,7 +42,11 @@
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./home_backup/faq/</loc><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/organization/</loc><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/organization/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/contact/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/contact/</loc><changefreq>weekly</changefreq></url>
   <url>
@@ -53,6 +63,8 @@
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/___index/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://foundation-models-meet-embodied-agents.github.io./aaai25__back/</loc><changefreq>weekly</changefreq></url>
   <url>
     <loc></loc><changefreq>weekly</changefreq></url>
   <url>
