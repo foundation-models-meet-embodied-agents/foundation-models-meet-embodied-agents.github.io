@@ -13,6 +13,32 @@
     </image>
     
     <item>
+      <title>Foundation Models Meet Embodied Agents
+{style=&#34;color: white; font-size: 4rem; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;&#34;}    
+@ AAAI 2025 Tutorial
+{style=&#34;color: white; font-size: 3rem; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;&#34;}
+</title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/intro/</guid>
+      <description>&lt;p&gt;08:30 - 12:30, Feb 25, 2025&lt;/p&gt;
+&lt;p&gt;118 A, Pennsylvania Convention Center, Philadelphia, Pennsylvania&lt;/p&gt;
+&lt;br&gt;
+&lt;!-- Powered by the [Hugo Conference Theme](https://wowchemy.com/hugo-themes/) --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Foundation Models Meet Embodied Agents</title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/about/</guid>
+      <description>&lt;p&gt;An embodied agent is a generalist agent that can take natural language instructions from humans and perform a wide range of tasks in diverse environments. Recent years have witnessed the emergence of Large Language Models as powerful tools for building Large Agent Models, which have shown remarkable success in supporting embodied agents for different abilities such as goal interpretation, subgoal decomposition, action sequencing, and transition modeling (causal transitions from preconditions to post-effects).&lt;/p&gt;
+&lt;p&gt;However, moving from Foundation Models to Embodied Agents poses significant challenges in understanding lower-level visual details, and long-horizon reasoning for reliable embodied decision-making.  We will cover the advances of the foundation models into Large Language Models Vision-Language Models, and Vision-Language-Action Models. In this tutorial, we will comprehensively review existing paradigms for foundations for embodied agents, and focus on their different formulations based on the fundamental mathematical framework of robot learning, Markov Decision Process (MDP), and present a structured view to investigate the robot&amp;rsquo;s decision-making process.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Workshops</title>
       <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/workshops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +55,115 @@
     </item>
     
     <item>
+      <title>Schedule</title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/schedule/</guid>
+      <description>&lt;div class=&#34;col-12&#34;&gt;
+ &lt;table class=&#34;table&#34;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Session&lt;/th&gt;
+&lt;th&gt;Duration&lt;/th&gt;
+&lt;th&gt;Time&lt;/th&gt;
+&lt;th&gt;Presenter&lt;/th&gt;
+&lt;th&gt;Slides/Video&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Motivation and Overview&lt;/td&gt;
+&lt;td&gt;15min&lt;/td&gt;
+&lt;td&gt;08:30-08:45&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://limanling.github.io&#34;&gt;Manling Li&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-overview.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Foundation Models meet Virtual Agents&lt;/td&gt;
+&lt;td&gt;45min&lt;/td&gt;
+&lt;td&gt;08:45-09:30&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://limanling.github.io&#34;&gt;Manling Li&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-virtual-agent.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Foundation Models meet Physical Agents: Overview &amp;amp; High-level Decision Making&lt;/td&gt;
+&lt;td&gt;25min&lt;/td&gt;
+&lt;td&gt;09:30-09:55&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://jiayuanm.com&#34;&gt;Jiayuan Mao&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-physical-agent-perception.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Foundation Models meet Physical Agents: Low-level Decision Making&lt;/td&gt;
+&lt;td&gt;50min&lt;/td&gt;
+&lt;td&gt;09:55-10:45&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://wenlong.page&#34;&gt;Wenlong Huang&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-physical-agent.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Break&lt;/td&gt;
+&lt;td&gt;30min&lt;/td&gt;
+&lt;td&gt;10:45-11:15&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Robotic Foundation Models&lt;/td&gt;
+&lt;td&gt;30min&lt;/td&gt;
+&lt;td&gt;11:15-11:45&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://yunzhuli.github.io&#34;&gt;Yunzhu Li&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-robotic-foundation-models.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Remaining Challenges&lt;/td&gt;
+&lt;td&gt;15min&lt;/td&gt;
+&lt;td&gt;11:45-12:00&lt;/td&gt;
+&lt;td&gt;&lt;b&gt;&lt;a href=&#34;https://yunzhuli.github.io&#34;&gt;Yunzhu Li&lt;/a&gt;&lt;/b&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;./uploads/FM-EA-challenges.pdf&#34;&gt;Slides&lt;/a&gt;, Video (Upcoming)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;QA&lt;/td&gt;
+&lt;td&gt;30min&lt;/td&gt;
+&lt;td&gt;12:00-12:30&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;style&gt;
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-bottom: 1rem; */
+    font-size: 0.9rem;
+  }
+  .table td:first-child {
+    white-space: nowrap;
+    min-width: 85px;
+  }
+  .abstract {
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+  }
+  @media screen and (max-width: 768px) {
+    .table {
+      font-size: 0.8rem;
+    }
+    .table td, .table th {
+      padding: 0.5rem;
+    }
+    .abstract {
+      font-size: 0.65rem;
+    }
+  }
+&lt;/style&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
       <title>FAQ</title>
       <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,6 +176,22 @@
 &lt;h2 id=&#34;do-i-need-a-visa&#34;&gt;Do I need a visa?&lt;/h2&gt;
 &lt;p&gt;If you are an EU citizen or member of the Schengen area you don’t need any visa.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Presenters</title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/organization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/organization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/contact/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -76,6 +227,14 @@
       <link>https://foundation-models-meet-embodied-agents.github.io./aaai2025/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://foundation-models-meet-embodied-agents.github.io./aaai2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://foundation-models-meet-embodied-agents.github.io./aaai25_bak/</guid>
       <description></description>
     </item>
     
