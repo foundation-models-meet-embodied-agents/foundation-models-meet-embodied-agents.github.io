@@ -5,71 +5,12 @@
     <link>https://foundation-models-meet-embodied-agents.github.io./</link>
       <atom:link href="https://foundation-models-meet-embodied-agents.github.io./index.xml" rel="self" type="application/rss+xml" />
     <description>Foundation Models Meet Embodied Agents</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <image>
       <url>https://foundation-models-meet-embodied-agents.github.io./media/icon_hu127f241f63a982cda73a1c1b15888e16_9623_512x512_fill_lanczos_center_3.png</url>
       <title>Foundation Models Meet Embodied Agents</title>
       <link>https://foundation-models-meet-embodied-agents.github.io./</link>
     </image>
-    
-    <item>
-      <title>Workshops</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/workshops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./home_backup/workshops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Speakers</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/speakers/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./home_backup/speakers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FAQ</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./home_backup/faq/</guid>
-      <description>&lt;p style=&#34;padding-top: 5rem&#34;&gt;Check out frequently asked questions&amp;hellip;&lt;/p&gt;
-&lt;h2 id=&#34;when-will-i-recieve-my-ticket&#34;&gt;When will I recieve my ticket?&lt;/h2&gt;
-&lt;p&gt;You will receive your ticket to your e-mail immediately after successful payment.&lt;/p&gt;
-&lt;h2 id=&#34;do-you-provide-travel-and-accommodation-for-speakers&#34;&gt;Do you provide travel and accommodation for speakers?&lt;/h2&gt;
-&lt;p&gt;Yes, both accommodation and travel costs for selected speakers are covered by Hugo Summit.&lt;/p&gt;
-&lt;h2 id=&#34;do-i-need-a-visa&#34;&gt;Do I need a visa?&lt;/h2&gt;
-&lt;p&gt;If you are an EU citizen or member of the Schengen area you don’t need any visa.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Support</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./home_backup/support/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./home_backup/support/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Example Workshop</title>
-      <link>https://foundation-models-meet-embodied-agents.github.io./event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://foundation-models-meet-embodied-agents.github.io./event/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchmey&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title></title>
