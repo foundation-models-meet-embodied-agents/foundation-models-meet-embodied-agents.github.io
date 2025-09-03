@@ -398,6 +398,97 @@
   </div>
 </section>
 
+<section id="participation" class="home-section wg-blank" style="padding: 80px 0 60px 0;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="section-heading col-12 mb-5 text-center">
+        <h1 class="mb-0">🚀 How to Participate</h1>
+      </div>
+    </div>
+
+    <!-- Submission Details Section -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-12">
+        <h2 style="color: #1565c0; margin-bottom: 30px; text-align: center;">📋 Submission Details</h2>
+        
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #f0f8ff 0%, #e1f4fd 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #2196f3; box-shadow: 0 8px 25px rgba(33, 150, 243, 0.15);">
+              <h3 style="color: #1976d2; margin-bottom: 20px; font-size: 1.4rem;">📝 Submit Your Results</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 20px; color: #2c3e50;">Submit your results and models via our official Google Form:</p>
+              <div style="text-align: center; margin-bottom: 20px;">
+                <a href="https://forms.gle/54tVqi5zs3ANGutn7" target="_blank" rel="noopener noreferrer" style="background: #2196f3; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block; box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3); transition: all 0.3s ease;">
+                  📄 Google Form Submission
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #faf5ff 0%, #f0e6ff 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #9c27b0; box-shadow: 0 8px 25px rgba(156, 39, 176, 0.15);">
+              <h3 style="color: #7b1fa2; margin-bottom: 20px; font-size: 1.4rem;">📊 Self-Evaluation Resources</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 20px; color: #2c3e50;">To self-report your performance:</p>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50; margin-bottom: 20px;">
+                <li>📖 Check our <a href="https://behavior.stanford.edu/challenge/evaluation.html" target="_blank" rel="noopener noreferrer" style="color: #7b1fa2; text-decoration: none; font-weight: bold;">evaluation guide</a></li>
+                <li>🏆 View the <a href="https://behavior.stanford.edu/challenge/leaderboard.html" target="_blank" rel="noopener noreferrer" style="color: #7b1fa2; text-decoration: none; font-weight: bold;">leaderboard</a></li>
+              </ul>
+              <p style="font-size: 1rem; color: #5d6d7e; font-style: italic; margin-bottom: 0;">
+                💡 We encourage submitting intermediate results to be showcased on our leaderboard!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final Model Submission Section -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 style="color: #1565c0; margin-bottom: 30px; text-align: center;">🎯 Final Model Submission and Evaluation</h2>
+        
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #f0fff0 0%, #e8f5e8 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #4caf50; box-shadow: 0 8px 25px rgba(76, 175, 80, 0.15);">
+              <h3 style="color: #388e3c; margin-bottom: 20px; font-size: 1.4rem;">💻 Submitted Models & Compute Specs</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 15px; color: #2c3e50;">
+                <strong>Hardware Requirements:</strong>
+              </p>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50; margin-bottom: 20px;">
+                <li>🖥️ Model should run on a <strong>single 24GB VRAM GPU</strong></li>
+                <li>⚙️ Final evaluation will use: <strong>RTX 3090, A5000, TitanRTX</strong></li>
+              </ul>
+              <div style="background: #f8fff8; padding: 15px; border-radius: 8px; border-left: 4px solid #8bc34a;">
+                <p style="font-size: 1rem; margin-bottom: 0; color: #33691e;">
+                  <strong>Note:</strong> The same model with different checkpoints from the same team will be considered as a single entry.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #ff9800; box-shadow: 0 8px 25px rgba(255, 152, 0, 0.15);">
+              <h3 style="color: #f57c00; margin-bottom: 20px; font-size: 1.4rem;">🌐 IP Address-Based Evaluation</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 15px; color: #2c3e50;">
+                <strong>Model Serving Options:</strong>
+              </p>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50; margin-bottom: 20px;">
+                <li>🔗 Serve your models and provide IP addresses for evaluation queries</li>
+                <li>📚 Recommended serving libraries:</li>
+                <ul style="margin-top: 10px; margin-left: 20px;">
+                  <li>TorchServe</li>
+                  <li>LitServe</li>
+                  <li>vLLM</li>
+                  <li>NVIDIA Triton</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- <section id="incentives" class="home-section wg-blank" style="padding: 80px 0 20px 0;">
   <div class="container">
     <div class="row justify-content-center">
