@@ -133,7 +133,7 @@
         <p>Robots in the <strong>BEHAVIOR</strong> simulator perform everyday activities (like preparing food) in virtual home environments. <strong>BEHAVIOR</strong> (<em>Benchmark for Everyday Household Activities in Virtual, Interactive, and Realistic environments</em>) is a large-scale embodied AI benchmark with <strong>1,000 defined household tasks</strong> grounded in real human needs. These tasks introduce long-horizon mobile manipulation challenges in realistic settings, bridging the gap between current research and real-world, human-centric applications.</p>
         <p>Even state-of-the-art robot learning models still struggle with the complexity and extended duration of BEHAVIOR's activities, which is why we are thrilled to announce the <strong>1st BEHAVIOR Challenge at NeurIPS 2025</strong>. This competition invites the community to tackle <strong>50 full-length tasks</strong> in a realistic simulator — pushing the frontiers of both high-level planning and low-level control in house-scale environments.</p>
         <p>Participants will need to make progress on hierarchical planning, robust perception under realistic visual conditions, and reliable manipulation across long-horizon episodes. By focusing on full-length, human-scale household tasks, the challenge aims to surface the practical limitations of current methods and drive advances that matter for real-world robot deployments.</p>
-        <p>🔗More information on the <a href="https://behavior.stanford.edu/challenge/overview.html">official 2025 BEHAVIOR challenge website</a>.</p>
+        <p>🔗More information on the <a href="https://behavior.stanford.edu/challenge">official 2025 BEHAVIOR challenge website</a>.</p>
       </div>
     </div>
   </div>
@@ -227,30 +227,170 @@
   </div>
 </section>
 
-<section id="evaluation" class="home-section wg-blank" style="padding: 80px 0 40px 0;">
+<section id="evaluation" class="home-section wg-blank" style="padding: 80px 0 60px 0;">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="section-heading col-12 mb-4 text-center">
+      <div class="section-heading col-12 mb-5 text-center">
         <h1 class="mb-0">📊 Evaluation</h1>
       </div>
+    </div>
+
+    <!-- Challenge Tracks Section -->
+    <div class="row justify-content-center mb-5">
       <div class="col-12">
+        <h2 style="color: #1565c0; margin-bottom: 30px; text-align: center;">🏁 Challenge Tracks</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 40px; text-align: center;">We have two tracks for the 2025 BEHAVIOR challenge:</p>
+        
         <div class="row">
           <div class="col-lg-6 mb-4">
-            <h2 style="color: #1565c0; margin-bottom: 20px;">📈 Metrics</h2>
-            <p style="font-size: 1.1rem; margin-bottom: 20px;">Agents are evaluated across three areas:</p>
-            <ul style="font-size: 1.1rem; line-height: 1.8;">
-              <li><strong>Task completion rate</strong> (primary metric): Fraction of satisfied predicates in the goal condition of BDDL (BEHAVIOR Domain Definition Language) task definition</li>
-              <li><strong>Agent efficiency</strong>: Total distance traveled and energy expended during task execution</li>
-              <li><strong>Data efficiency</strong>: Total number of frames from demonstrations (IL) or simulator (RL) used during training</li>
-            </ul>
+            <div style="background: linear-gradient(135deg, #ecf0f1 0%, #d5dbdb 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #3498db; box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15); transition: transform 0.3s ease;">
+              <h3 style="color: #2980b9; margin-bottom: 20px; font-size: 1.4rem;">Standard Track</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 20px; color: #34495e;">Participants use only provided state observations:</p>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50;">
+                <li><strong>RGB + depth + instance segmentation + proprioception</strong></li>
+                <li><strong>No object state information</strong></li>
+              </ul>
+            </div>
           </div>
+          
           <div class="col-lg-6 mb-4">
-            <h2 style="color: #1565c0; margin-bottom: 20px;">📋 Reporting</h2>
-            <ul style="font-size: 1.1rem; line-height: 1.8; margin-top: 20px;">
-              <li><strong>Results are reported with 95% confidence intervals</strong> - ensuring statistical significance</li>
-              <li><strong>Primary ranking based on task completion rate</strong> - main performance indicator</li>
-              <li><strong>All metrics displayed on the leaderboard</strong> - comprehensive performance tracking</li>
-            </ul>
+            <div style="background: linear-gradient(135deg, #fdf2e9 0%, #fadbd8 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #e74c3c; box-shadow: 0 8px 25px rgba(231, 76, 60, 0.15); transition: transform 0.3s ease;">
+              <h3 style="color: #c0392b; margin-bottom: 20px; font-size: 1.4rem;">Privileged Information Track</h3>
+              <p style="font-size: 1.1rem; margin-bottom: 20px; color: #34495e;">Participants can query for any privileged information:</p>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50;">
+                <li><strong>Target object poses</strong></li>
+                <li><strong>Scene point cloud</strong></li>
+                <li><strong>Any other simulator information</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prizes Section -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-8">
+            <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 30px; border-radius: 15px; text-align: center; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border: 2px solid #bdc3c7;">
+              <h3 style="color: #2c3e50; margin-bottom: 25px; font-size: 1.5rem;">🏆 Prizes for Each Track</h3>
+              <div class="row">
+                <div class="col-md-4">
+                  <div style="font-size: 1.3rem; margin-bottom: 12px;">🥇 <strong style="color: #f39c12;">$1,000</strong></div>
+                  <div style="color: #000000; font-size: 1.1rem;">First Place</div>
+                </div>
+                <div class="col-md-4">
+                  <div style="font-size: 1.3rem; margin-bottom: 12px;">🥈 <strong style="color: #95a5a6;">$500</strong></div>
+                  <div style="color: #000000; font-size: 1.1rem;">Second Place</div>
+                </div>
+                <div class="col-md-4">
+                  <div style="font-size: 1.3rem; margin-bottom: 12px;">🥉 <strong style="color: #d35400;">$300</strong></div>
+                  <div style="color: #000000; font-size: 1.1rem;">Third Place</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Performance Metrics Section -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-12">
+        <h2 style="color: #1565c0; margin-bottom: 30px; text-align: center;">📈 Performance Metrics</h2>
+        
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #eafaf1 0%, #d5f4e6 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #27ae60; box-shadow: 0 8px 25px rgba(39, 174, 96, 0.15);">
+              <h3 style="color: #229954; margin-bottom: 20px; font-size: 1.4rem;">🎯 Primary Metric (Ranking)</h3>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50;">
+                <strong>Task success rate</strong> averaged across 50 tasks.<br><br>
+                Partial successes are counted as: <br>
+                <em style="color: #5d6d7e;">satisfied BDDL predicates ÷ total goal predicates</em>
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <div style="background: linear-gradient(135deg, #fef9e7 0%, #fcf3cf 100%); padding: 30px; border-radius: 15px; height: 100%; border-left: 5px solid #f1c40f; box-shadow: 0 8px 25px rgba(241, 196, 15, 0.15);">
+              <h3 style="color: #d68910; margin-bottom: 20px; font-size: 1.4rem;">⚡ Secondary Metrics (Efficiency)</h3>
+              <ul style="font-size: 1.1rem; line-height: 1.8; color: #2c3e50; margin-bottom: 15px;">
+                <li><strong>Simulated time:</strong> Total simulation steps</li>
+                <li><strong>Distance navigated:</strong> Accumulated distance traveled by agent base</li>
+                <li><strong>Hand displacement:</strong> Accumulated displacement of agent hands</li>
+              </ul>
+              <p style="font-size: 1rem; color: #5d6d7e; font-style: italic; margin-bottom: 0;">
+                * Secondary metrics normalized using human averages from 200 demonstrations per task
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Evaluation Protocol Section -->
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h2 style="color: #1565c0; margin-bottom: 30px; text-align: center;">📋 Evaluation Protocol</h2>
+        
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <div style="background: linear-gradient(135deg, #ebf3fd 0%, #d6eaff 100%); padding: 25px; border-radius: 15px; height: 100%; text-align: center; border-top: 4px solid #3498db; box-shadow: 0 8px 25px rgba(52, 152, 219, 0.15);">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">1️⃣</div>
+              <h3 style="color: #2980b9; margin-bottom: 20px; font-size: 1.3rem;">Training Phase</h3>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50; margin-bottom: 0;">
+                Training instances and human demonstrations (200 per task) released publicly
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div style="background: linear-gradient(135deg, #f4ecf7 0%, #e8daef 100%); padding: 25px; border-radius: 15px; height: 100%; text-align: center; border-top: 4px solid #9b59b6; box-shadow: 0 8px 25px rgba(155, 89, 182, 0.15);">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">2️⃣</div>
+              <h3 style="color: #8e44ad; margin-bottom: 20px; font-size: 1.3rem;">Self-Evaluation</h3>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50; margin-bottom: 15px;">
+                20 validation instances provided
+              </p>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50; margin-bottom: 0;">
+                Evaluate 5 times per instance, submit scores via Google Form
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div style="background: linear-gradient(135deg, #eafaf1 0%, #d5f4e6 100%); padding: 25px; border-radius: 15px; height: 100%; text-align: center; border-top: 4px solid #27ae60; box-shadow: 0 8px 25px rgba(39, 174, 96, 0.15);">
+              <div style="font-size: 2.5rem; margin-bottom: 15px;">3️⃣</div>
+              <h3 style="color: #229954; margin-bottom: 20px; font-size: 1.3rem;">Final Evaluation</h3>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50; margin-bottom: 15px;">
+                20 held-out instances for final evaluation
+              </p>
+              <p style="font-size: 1.1rem; line-height: 1.6; color: #2c3e50; margin-bottom: 0;">
+                Top-5 solutions evaluated after <strong>November 15th, 2025</strong> freeze
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Instance Variations Note -->
+        <div class="row justify-content-center mt-4">
+          <div class="col-lg-8">
+            <div style="background: linear-gradient(135deg, #fff8dc 0%, #ffeaa7 100%); padding: 20px; border-radius: 12px; text-align: center; border: 2px dashed #fdcb6e; box-shadow: 0 4px 15px rgba(253, 203, 110, 0.2);">
+              <p style="font-size: 1.1rem; margin-bottom: 0; color: #2c3e50;">
+                <strong>📝 Instance Variations:</strong> Each instance differs in initial object states and initial robot poses
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Challenge Office Hours -->
+        <div class="row justify-content-center mt-5">
+          <div class="col-lg-8">
+            <div style="background: linear-gradient(135deg, #e8f4fd 0%, #d1ecf1 100%); padding: 25px; border-radius: 15px; text-align: center; border: 2px solid #5dade2; box-shadow: 0 8px 25px rgba(93, 173, 226, 0.2);">
+              <h3 style="color: #2980b9; margin-bottom: 20px; font-size: 1.4rem;">🕐 Challenge Office Hours</h3>
+              <p style="font-size: 1.2rem; margin-bottom: 15px; color: #2c3e50;">
+                Every <strong>Monday and Thursday</strong>, 4:30pm-6:00pm PST
+              </p>
+              <p style="font-size: 1.1rem; margin-bottom: 0; color: #34495e;">
+                Join us over <a href="https://stanford.zoom.us/j/92909660940?pwd=RgFrdC8XeB3nVxABqb1gxrK96BCRBa.1" target="_blank" rel="noopener noreferrer" style="color: #2980b9; text-decoration: none; font-weight: bold; border-bottom: 2px solid #2980b9; padding-bottom: 2px;">Zoom</a> for support and Q&A
+              </p>
+            </div>
           </div>
         </div>
       </div>
