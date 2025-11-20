@@ -21,6 +21,43 @@
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu127f241f63a982cda73a1c1b15888e16_9623_180x180_fill_lanczos_center_3.png" />
   <link rel="canonical" href="https://foundation-models-meet-embodied-agents.github.io./eai_challenge/" />
   <meta property="twitter:card" content="summary" />
+  <style>
+    /* Prevent image downloading and selection */
+    .people-person img.avatar {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+      -khtml-user-drag: none;
+      -moz-user-drag: none;
+      -o-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+    }
+    .people-person {
+      position: relative;
+    }
+    .people-person::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 270px;
+      height: 270px;
+      background: transparent;
+      z-index: 1;
+      cursor: default;
+      margin: 0 auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .people-person .portrait-title {
+      position: relative;
+      z-index: 2;
+      pointer-events: auto;
+    }
+  </style>
   <meta property="og:site_name" content="Foundation Models Meet Embodied Agents" />
   <meta property="og:url" content="https://foundation-models-meet-embodied-agents.github.io./eai_challenge/" />
   <meta property="og:title" content="Foundation Models Meet Embodied Agents" />
@@ -380,7 +417,7 @@
           </div>
           
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/manling-li/avatar_hudf540693b64f9a6a2d70f06d58229227_7031871_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/manling-li/avatar_hudf540693b64f9a6a2d70f06d58229227_7031871_270x270_fill_q75_lanczos_center.jpg" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://limanling.github.io/">Manling Li</a></h2>
               <h3>Northwestern University</h3>
@@ -389,16 +426,16 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/tianweibao/tianweibao.jpeg" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/tianweibao/tianweibao.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
-              <h2><a href="https://github.com/TianweiBao">Tianwei Bao</a></h2>
+              <h2><a href="https://tianweibao.github.io/">Tianwei Bao</a></h2>
               <h3>Northwestern University</h3>
               <ul class="network-icon" aria-hidden="true"></ul>
             </div>
           </div>  
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/qinengwang/avatar_hu1b80a880db9cdcf0e538966c6b9ad1d2_67041_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/qinengwang/avatar_hu1b80a880db9cdcf0e538966c6b9ad1d2_67041_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://qinengwang-aiden.github.io">Qineng Wang</a></h2>
               <h3>Northwestern University</h3>
@@ -407,7 +444,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/kangruiwang/avatar.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/kangruiwang/avatar.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://jameskrw.github.io/">Kangrui Wang</a></h2>
               <h3>Northwestern University</h3>
@@ -416,7 +453,7 @@
           </div>     
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/bryanzhou/avatar_hufd16622fd8f5cc15cec4f32980a96646_846927_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/bryanzhou/avatar_hufd16622fd8f5cc15cec4f32980a96646_846927_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://yu-bryan-zhou.github.io">Bryan Yu Zhou</a></h2>
               <h3>UCLA</h3>
@@ -425,7 +462,7 @@
           </div>  
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/erranli/erranli.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/erranli/erranli.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://www.cs.columbia.edu/~lierranli/">Li Erran Li</a></h2>
               <h3>Amazon, Columbia University</h3>
@@ -434,7 +471,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/ruohanzhang/avatar_hued8767adb6e885916276fc164ddb5f95_5880877_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/ruohanzhang/avatar_hued8767adb6e885916276fc164ddb5f95_5880877_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://ai.stanford.edu/~zharu/">Ruohan Zhang</a></h2>
               <h3>Stanford University</h3>
@@ -443,7 +480,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/weiyuliu/avatar_hu4cd356c4970b3090fda4d834607f9e2e_20222323_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/weiyuliu/avatar_hu4cd356c4970b3090fda4d834607f9e2e_20222323_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
           <div class="portrait-title">
             <h2><a href="https://www.weiyuliu.com">Weiyu Liu</a></h2>
             <h3>Stanford University</h3>
@@ -452,7 +489,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/jiayuanmao/avatar_hucf95170c66de7bab9a1b26ce3fa4d9f8_47317_270x270_fill_q75_lanczos_center.jpg" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/jiayuanmao/avatar_hucf95170c66de7bab9a1b26ce3fa4d9f8_47317_270x270_fill_q75_lanczos_center.jpg" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://jiayuanm.com">Jiayuan Mao</a></h2>
               <h3>Amazon FAR and UPenn</h3>
@@ -461,7 +498,7 @@
           </div>   
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/percyliang/pl.jpeg" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/percyliang/pl.jpeg" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://cs.stanford.edu/~pliang/">Percy Liang</a></h2>
               <h3>Stanford University</h3>
@@ -470,7 +507,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/yejincho/avatar_hudea140e4acd2a8cb523f99be36df2da1_7069291_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/yejincho/avatar_hudea140e4acd2a8cb523f99be36df2da1_7069291_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://yejinc.github.io">Yejin Choi</a></h2>
               <h3>NVIDIA, Stanford University</h3>
@@ -479,7 +516,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/feifeili/avatar_hu05a4820cb0b2258f2bc3d495b198cc2f_165269_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/feifeili/avatar_hu05a4820cb0b2258f2bc3d495b198cc2f_165269_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
             <div class="portrait-title">
               <h2><a href="https://profiles.stanford.edu/fei-fei-li">Fei-Fei Li</a></h2>
               <h3>Stanford University</h3>
@@ -488,7 +525,7 @@
           </div>
 
           <div class="col-12 col-sm-auto people-person">
-            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/jiajunwu/avatar_huf3b08ed51519a61bbca87677ca1d0729_228027_270x270_fill_lanczos_center_3.png" alt="Avatar">
+            <img width="270" height="270" loading="lazy" class="avatar avatar-circle" src="/authors/jiajunwu/avatar_huf3b08ed51519a61bbca87677ca1d0729_228027_270x270_fill_lanczos_center_3.png" alt="Avatar" draggable="false" oncontextmenu="return false;">
           <div class="portrait-title">
             <h2><a href="https://jiajunwu.com">Jiajun Wu</a></h2>
             <h3>Stanford University</h3>
@@ -603,5 +640,43 @@
   <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
   <script src="/en/js/wowchemy.min.992ab4bf929c75fb2aff9ec73febac85.js"></script>
   <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
+  <script>
+    // Prevent right-click, drag, and download on avatar images
+    document.addEventListener('DOMContentLoaded', function() {
+      const avatarImages = document.querySelectorAll('.people-person img.avatar');
+      
+      avatarImages.forEach(function(img) {
+        // Disable right-click context menu
+        img.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+          return false;
+        });
+        
+        // Disable dragging
+        img.addEventListener('dragstart', function(e) {
+          e.preventDefault();
+          return false;
+        });
+        
+        // Disable pointer events
+        img.style.pointerEvents = 'none';
+        
+        // Disable selection
+        img.setAttribute('unselectable', 'on');
+        img.setAttribute('draggable', 'false');
+      });
+      
+      // Disable right-click on the entire people-person containers
+      const peopleDivs = document.querySelectorAll('.people-person');
+      peopleDivs.forEach(function(div) {
+        div.addEventListener('contextmenu', function(e) {
+          if (e.target.tagName === 'IMG' || e.target.classList.contains('avatar')) {
+            e.preventDefault();
+            return false;
+          }
+        });
+      });
+    });
+  </script>
 </body>
 </html>
