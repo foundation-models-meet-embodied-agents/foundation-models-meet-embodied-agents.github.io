@@ -2,5 +2,5 @@
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
 
-# Redirect homepage to ICCV 2025 tutorial
-/  /iccv2025_tutorial/  301
+# Redirect homepage to CVPR 2026 workshop
+/  /cvpr2026/  301
